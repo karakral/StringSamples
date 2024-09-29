@@ -13,16 +13,20 @@ public class StringFamily {
 
         System.out.println("------------------------------ end capacity ");
 
-
         StringBuilder stBuilder = new StringBuilder();
-        String str = new String("st");
+        String string = new String("st");
         System.out.println("hash code of stBuilder " + System.identityHashCode(stBuilder));
-        System.out.println("hashcode of str " + System.identityHashCode(str));
-        str+="hi";
-        System.out.println("hash code str " + System.identityHashCode(str));
+        System.out.println("hashcode of string " + System.identityHashCode(string));
+        string+="hi";
+        System.out.println("hash code string " + System.identityHashCode(string));
         stBuilder.append("hi");
-        System.out.println("hash code of stBuider " + System.identityHashCode( stBuilder));
+        System.out.println("hash code of stBuilder " + System.identityHashCode( stBuilder));
+        System.out.println("------------------------------ end test change value  ");
+        string+= "moh".toUpperCase();
+        System.out.println("hash code string after call toUpperCase method " + System.identityHashCode(string));
+        stBuilder.append("moh".toUpperCase());
+        System.out.println("hash code string builder after call toUpperCase method " + System.identityHashCode(stBuilder));
 
-
+        System.out.println("------------------------------ end test call toUpperCase");
     }
 }
