@@ -8,6 +8,9 @@ public class StringSamples {
 //    stringFamily.StringFamily();
 //    MethodsStringBuilder methodsStringBuilder = new MethodsStringBuilder();
 //    methodsStringBuilder.methodsStringBuilder();
+        TestTrimToLowerMethods testTrimToLowerMethods = new TestTrimToLowerMethods();
+        testTrimToLowerMethods.testTrimToLowerMethods();
+
 //_______________________ test why we override hashcode and equal when useing hashcode Hashpam
 
         HashMap<Person, String> map = new HashMap<Person, String>();
