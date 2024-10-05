@@ -4,9 +4,17 @@ public class Person {
     private String name;
     private int age;
 
+    public Person() {
+
+    }
+
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
+    }
+
+    public int testForRefection(int age){
+        return age++;
     }
 
     @Override
@@ -16,6 +24,9 @@ public class Person {
         return hash;
     }
 
+     void m1 (){
+
+    }
     // Override equals method
     @Override
     public boolean equals(Object obj) {
