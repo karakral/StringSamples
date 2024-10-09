@@ -5,7 +5,7 @@ public class Person {
     private int age;
 
     public Person() {
-
+        System.out.println("constructor called");
     }
 
     public Person(String name, int age) {
@@ -24,8 +24,8 @@ public class Person {
         return hash;
     }
 
-     void m1 (){
-
+    private void m1 (){
+        System.out.println("m1111111111111111111111111");
     }
     // Override equals method
     @Override

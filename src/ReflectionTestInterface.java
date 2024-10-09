@@ -4,6 +4,5 @@ public interface ReflectionTestInterface {
 
     default void methodInInterface() {
         System.out.println("interface method called");
-
     }
 }
